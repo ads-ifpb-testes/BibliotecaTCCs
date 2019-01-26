@@ -17,17 +17,26 @@ public class GerenciarTccDaoImpl implements GerenciarTccDao {
 		return tccs.add(new Tcc(dataTcc, titulo, tema, autor, pathTcc, palavrasChaves));
 	}
 
-	@Override
+
+
 	public boolean excluirTcc(String titulo, String autor) {
-		// TODO Auto-generated method stub
+		for(Tcc t:tccs) {
+			if(t.getTitulo().equals(titulo) && t.getAutor().equals(autor)) {
+				return tccs.remove(t);
+			}
+		}
 		return false;
 	}
+
+
 
 	@Override
 	public boolean comentarTcc(String comentario, String titulo, String autor) {
 		// TODO Auto-generated method stub
 		return false;
 	}
+
+
 
 	@Override
 	public ArrayList<Tcc> buscarPorTitulo(String titulo) {
