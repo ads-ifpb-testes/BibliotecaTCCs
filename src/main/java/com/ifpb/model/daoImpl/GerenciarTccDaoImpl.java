@@ -42,7 +42,6 @@ public class GerenciarTccDaoImpl implements GerenciarTccDao {
 	}
 
 	
-	
 	public int buscarPorTituloEAutor(String titulo, String autor) {
 		for(int i=0;i<tccs.size();i++) {
 			if(tccs.get(i).getAutor().equals(autor) && tccs.get(i).getTitulo().equals(titulo)) {
@@ -50,5 +49,16 @@ public class GerenciarTccDaoImpl implements GerenciarTccDao {
 			}
 		}
 		return -1;
+	}
+	
+	
+	public ArrayList<Tcc> buscarPorTitulo(String titulo) {
+		ArrayList<Tcc> l = new ArrayList<>();
+		for(Tcc t : tccs) {
+			if(t.getTitulo().equals(titulo)) {
+				l.add(t);
+			}
+		}
+		return l;
 	}
 }
