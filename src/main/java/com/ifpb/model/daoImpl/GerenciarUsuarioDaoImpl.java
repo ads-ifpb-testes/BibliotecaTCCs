@@ -15,7 +15,8 @@ public class GerenciarUsuarioDaoImpl implements GerenciarUsuarioDao{
 	}
 	@Override
 	public boolean excluirUsuario(String email) {
-		// TODO Auto-generated method stub
+		if(usuarios.remove(email)!=null)
+			return true;
 		return false;
 	}
 	@Override
