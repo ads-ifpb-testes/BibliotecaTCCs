@@ -28,19 +28,27 @@ public class GerenciarTccDaoImpl implements GerenciarTccDao {
 		return false;
 	}
 
-
-
-	@Override
 	public boolean comentarTcc(String comentario, String titulo, String autor) {
-		// TODO Auto-generated method stub
+		int i = buscarPorTituloEAutor(titulo, autor);
+		
+		if(comentario.length()<1 || titulo.length()<1 || autor.length()<1) {
+			return false;
+		}	
+		if(i!=-1) {
+			tccs.get(i).setComentario(comentario);
+			return true;
+		}
 		return false;
 	}
 
-
-
-	@Override
-	public ArrayList<Tcc> buscarPorTitulo(String titulo) {
-		// TODO Auto-generated method stub
-		return null;
+	
+	
+	public int buscarPorTituloEAutor(String titulo, String autor) {
+		for(int i=0;i<tccs.size();i++) {
+			if(tccs.get(i).getAutor().equals(autor) && tccs.get(i).getTitulo().equals(titulo)) {
+				return i;
+			}
+		}
+		return -1;
 	}
 }
