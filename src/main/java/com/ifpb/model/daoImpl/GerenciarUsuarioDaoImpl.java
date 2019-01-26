@@ -21,7 +21,12 @@ public class GerenciarUsuarioDaoImpl implements GerenciarUsuarioDao{
 	}
 	@Override
 	public boolean login(String email, String senha) {
-		// TODO Auto-generated method stub
+
+		if(usuarios.containsKey(email)) {
+			if (usuarios.get(email).getSenha().equals(senha))
+				return true;
+		}
 		return false;
+		
 	}
 }
