@@ -15,10 +15,9 @@ public class Tcc {
 	private String tema;
 	private String autor;
 	private File arquivo;
-	private String[] palavrasChaves;
 	private List<String> comentarios;
 	
-	public Tcc(LocalDate dataTcc, String titulo, String tema, String autor, String pathTcc, String[] palavrasChaves) throws ArquivoInexistenteException {
+	public Tcc(LocalDate dataTcc, String titulo, String tema, String autor, String pathTcc) throws ArquivoInexistenteException {
 		this.arquivo = new File(pathTcc);
 		if(!arquivo.exists()) {
 			throw new ArquivoInexistenteException();
@@ -28,7 +27,6 @@ public class Tcc {
 		this.titulo = titulo;
 		this.tema = tema;
 		this.autor = autor;
-		this.palavrasChaves = palavrasChaves;
 	}
 	
 	public Integer getId() {
@@ -68,12 +66,6 @@ public class Tcc {
 	}
 	public void setArquivo(File arquivo) {
 		this.arquivo = arquivo;
-	}
-	public String[] getPalavrasChaves() {
-		return palavrasChaves;
-	}
-	public void setPalavrasChaves(String[] palavrasChaves) {
-		this.palavrasChaves = palavrasChaves;
 	}
 	public List<String> getComentarios() {
 		return comentarios;

@@ -13,8 +13,8 @@ import com.ifpb.model.dao.GerenciarTccDao;
 public class GerenciarTccDaoImpl implements GerenciarTccDao {
 	private static List<Tcc> tccs = new ArrayList<>(); 
 	
-	public boolean cadastrarTcc(LocalDate dataTcc, String titulo, String tema, String autor, String pathTcc, String[] palavrasChaves) throws ArquivoInexistenteException {
-		return tccs.add(new Tcc(dataTcc, titulo, tema, autor, pathTcc, palavrasChaves));
+	public boolean cadastrarTcc(LocalDate dataTcc, String titulo, String tema, String autor, String pathTcc) throws ArquivoInexistenteException {
+		return tccs.add(new Tcc(dataTcc, titulo, tema, autor, pathTcc));
 	}
 
 
