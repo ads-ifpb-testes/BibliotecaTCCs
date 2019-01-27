@@ -3,7 +3,7 @@ package com.ifpb.model;
 public class Usuario {
 
     private int id;
-    private static Integer contador;
+    private static int contador;
     private String nome;
     private String sexo;
     private String email;
