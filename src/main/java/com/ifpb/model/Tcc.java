@@ -9,7 +9,7 @@ import com.ifpb.exceptions.ArquivoInexistenteException;
 public class Tcc {
 	
 	private Integer id;
-	private static Integer contador;
+	private static int contador;
 	private LocalDate dataTcc;
 	private String titulo;
 	private String tema;
