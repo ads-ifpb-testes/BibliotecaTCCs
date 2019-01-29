@@ -1,4 +1,4 @@
-package com.ifpb.model.dao;
+package com.ifpb.model.tcc;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -6,9 +6,8 @@ import java.util.ArrayList;
 import com.ifpb.exceptions.ArquivoInexistenteException;
 import com.ifpb.model.Tcc;
 
-public interface GerenciarTccDao {
+public interface GerenciarTcc {
 	boolean cadastrarTcc(LocalDate dataTcc, String titulo, String tema, String autor, String pathTcc)throws ArquivoInexistenteException;
 	boolean excluirTcc(String titulo, String autor);
-	boolean comentarTcc(String comentario, String titulo, String autor);
 	ArrayList<Tcc> buscarPorTitulo(String titulo);
 }
