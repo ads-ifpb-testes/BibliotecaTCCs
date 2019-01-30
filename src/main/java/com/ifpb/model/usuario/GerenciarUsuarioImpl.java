@@ -8,8 +8,10 @@ public class GerenciarUsuarioImpl implements GerenciarUsuario{
 	private HashMap<String, Usuario> usuarios = new HashMap<>();
 	@Override
 	public boolean cadastrarUsuario(String nome, String sexo, String email, String senha, String curso) {
-		if(usuarios.put(email, new Usuario(nome, sexo, email, senha, curso))==null)
-			return true;
+		if (senha.length() >7){
+			if(usuarios.put(email, new Usuario(nome, sexo, email, senha, curso))==null)
+				return true;
+		}
 		return false;
 	}
 	@Override
