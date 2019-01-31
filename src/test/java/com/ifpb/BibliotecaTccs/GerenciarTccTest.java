@@ -13,7 +13,15 @@ import java.util.ArrayList;
 
 public class GerenciarTccTest {
 
-    //CT - 008
+    /**
+     * Caso de teste nº008
+     *
+     * Este caso de teste tem por finalidade excluir um TCC com base nos parâmetros de cadastro.
+     *
+     * @param titulo corresponde ao título do TCC cadastrado.
+     * @param autor corresponde ao autor do TCC cadastrado.
+     *
+     */
     @Test
     public void testeExcluirTcc() {
         DateTimeFormatter form = DateTimeFormatter.ofPattern("dd/MM/yyyy");
@@ -25,7 +33,33 @@ public class GerenciarTccTest {
             Assert.assertTrue(tccDao.excluirTcc("Inteligencia artificial", "Maria"));
 
             System.out.println("Exclussão realizada!");
-        } catch (ArquivoInexistenteException e) {
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     * Casso de teste nº009
+     *
+     * Este caso de teste tem por finalidade efetuar o cadastro corretamente de um tCC com.
+     *
+     * @param DataTcc corresponde a data que sumissão do TCC.
+     * @param Titulo corresponde ao título do TCC a ser cadastrado.
+     * @param Tema corresponde ao tema do Tcc a ser cadastrado.
+     * @param Autor corresponde ao nome do autor que deseja cadastrar seu TCC.
+     * @param PathTcc corresponde ao caminho onde o arquivo se encontra na máquina.
+     *
+     */
+    @Test
+    public void testeCadastroTcc(){
+        DateTimeFormatter form = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+        GerenciarTcc tccDao = new GerenciarTccImpl();
+
+        try {
+            Assert.assertTrue(tccDao.cadastrarTcc(LocalDate.parse("31/01/2019", form), "Inteligencia artificial", "A Era tecnologica",
+                    "Maria", "/home/diones/Downloads/modelo_TCC.pdf"));
+            System.out.println("Upload completo!");
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
