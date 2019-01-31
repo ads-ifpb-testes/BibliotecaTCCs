@@ -20,4 +20,9 @@ public class GerenciarUsuarioImpl implements GerenciarUsuario{
 			return true;
 		return false;
 	}
+	
+	
+	public HashMap<String, Usuario> readUsuarios(){
+		return usuarios;
+	}
 }
