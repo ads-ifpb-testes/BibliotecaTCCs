@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f7b7e52-1df9-4010-ac2d-8ccfdc0872c3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifpb/model/usuario/GerenciarUsuarioImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ifpb/model/usuario/GerenciarUsuarioImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ifpb/BibliotecaTccs/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ifpb/exceptions/ArquivoInexistenteException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ifpb/model/Tcc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ifpb/model/Usuario.class" beforeDir="false" />
-    </list>
+    <list default="true" id="4f7b7e52-1df9-4010-ac2d-8ccfdc0872c3" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +25,7 @@
         <counts>
           <entry key="class" value="1" />
           <entry key="classpath" value="1" />
-          <entry key="java" value="39" />
+          <entry key="java" value="46" />
           <entry key="project" value="1" />
           <entry key="xml" value="1" />
         </counts>
@@ -41,18 +34,18 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="Eclipse" value="2" />
-          <entry key="JAVA" value="39" />
+          <entry key="JAVA" value="46" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="919" />
+          <entry key="java" value="1311" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="919" />
+          <entry key="JAVA" value="1311" />
         </counts>
       </usages-collector>
     </session>
@@ -62,35 +55,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/model/tcc/GerenciarTcc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/ifpb/BibliotecaTccs/AppTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/model/usuario/GerenciarUsuarioImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+            <state relative-caret-position="119">
+              <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/ifpb/BibliotecaTccs/GerenciarUsuarioTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/ifpb/BibliotecaTccs/GerenciarTccTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+            <state relative-caret-position="170">
+              <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,19 +74,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/model/tcc/TccServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/BibliotecaTccs/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+            <state relative-caret-position="146">
+              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="30" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/model/tcc/TccService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/model/Tcc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            <state relative-caret-position="120">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/model/tcc/GerenciarTccImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="36" column="17" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -143,6 +127,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ifpb/model/usuario/GerenciarUsuario.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ifpb/model/usuario/GerenciarUsuarioImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ifpb/BibliotecaTccs/GerenciarUsuarioTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ifpb/BibliotecaTccs/TccServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ifpb/BibliotecaTccs/GerenciarTccTest.java" />
       </list>
     </option>
   </component>
@@ -266,7 +252,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548892063633" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548895851863" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -284,9 +270,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GerenciarUsuarioTest">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ifpb.BibliotecaTccs.App" />
+  <component name="RunManager" selected="JUnit.GerenciarTccTest.testeBuscarPorTitulo">
+    <configuration name="GerenciarTccTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BibliotecaTccs" />
       <extension name="coverage">
         <pattern>
@@ -294,6 +279,24 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.ifpb.BibliotecaTccs" />
+      <option name="MAIN_CLASS_NAME" value="com.ifpb.BibliotecaTccs.GerenciarTccTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GerenciarTccTest.testeBuscarPorTitulo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BibliotecaTccs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ifpb.BibliotecaTccs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ifpb.BibliotecaTccs" />
+      <option name="MAIN_CLASS_NAME" value="com.ifpb.BibliotecaTccs.GerenciarTccTest" />
+      <option name="METHOD_NAME" value="testeBuscarPorTitulo" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -308,22 +311,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.ifpb.BibliotecaTccs" />
       <option name="MAIN_CLASS_NAME" value="com.ifpb.BibliotecaTccs.GerenciarUsuarioTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GerenciarUsuarioTest.testeCadastrarUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BibliotecaTccs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ifpb.BibliotecaTccs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ifpb.BibliotecaTccs" />
-      <option name="MAIN_CLASS_NAME" value="com.ifpb.BibliotecaTccs.GerenciarUsuarioTest" />
-      <option name="METHOD_NAME" value="testeCadastrarUsuario" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -361,19 +348,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.App" />
-      <item itemvalue="JUnit.GerenciarUsuarioTest.testeCadastrarUsuario" />
       <item itemvalue="JUnit.GerenciarUsuarioTest.testeCadastrarUsuarioSenha" />
       <item itemvalue="JUnit.GerenciarUsuarioTest.testeCadastrarUsuarioCorreto" />
       <item itemvalue="JUnit.GerenciarUsuarioTest" />
+      <item itemvalue="JUnit.GerenciarTccTest" />
+      <item itemvalue="JUnit.GerenciarTccTest.testeBuscarPorTitulo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GerenciarTccTest.testeBuscarPorTitulo" />
+        <item itemvalue="JUnit.GerenciarTccTest" />
         <item itemvalue="JUnit.GerenciarUsuarioTest" />
         <item itemvalue="JUnit.GerenciarUsuarioTest.testeCadastrarUsuarioCorreto" />
         <item itemvalue="JUnit.GerenciarUsuarioTest.testeCadastrarUsuarioSenha" />
-        <item itemvalue="JUnit.GerenciarUsuarioTest.testeCadastrarUsuario" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -390,17 +377,11 @@
       <workItem from="1548549914299" duration="2326000" />
       <workItem from="1548617806960" duration="5062000" />
       <workItem from="1548869773376" duration="1347000" />
-      <workItem from="1548889937671" duration="2121000" />
+      <workItem from="1548889937671" duration="5906000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GerenciarUsuarioTest - 2019.01.30 at 20h 31m 16s.xml">
-      <configuration name="GerenciarUsuarioTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GerenciarUsuarioTest - 2019.01.30 at 20h 34m 39s.xml">
-      <configuration name="GerenciarUsuarioTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GerenciarUsuarioTest - 2019.01.30 at 20h 39m 34s.xml">
       <configuration name="GerenciarUsuarioTest" configurationId="JUnit" />
     </history-entry>
@@ -425,15 +406,21 @@
     <history-entry file="GerenciarUsuarioTest - 2019.01.30 at 20h 43m 50s.xml">
       <configuration name="GerenciarUsuarioTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GerenciarTccTest - 2019.01.30 at 21h 49m 19s.xml">
+      <configuration name="GerenciarTccTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GerenciarTccTest_testeBuscarPorTitulo - 2019.01.30 at 21h 50m 14s.xml">
+      <configuration name="GerenciarTccTest.testeBuscarPorTitulo" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10856000" />
+    <option name="totallyTimeSpent" value="14641000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -442,7 +429,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3295082" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3295082" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -517,20 +504,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/model/Tcc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/BibliotecaTccs/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/model/usuario/UsuarioService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -552,24 +525,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/model/tcc/GerenciarTccImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/model/usuario/GerenciarUsuarioImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+        <state relative-caret-position="170">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/model/tcc/GerenciarTcc.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ifpb/BibliotecaTccs/TccServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="208">
+          <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/model/tcc/TccService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/model/tcc/TccServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="255">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -580,24 +556,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/model/usuario/GerenciarUsuarioImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/model/tcc/TccService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/model/tcc/TccServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        <state relative-caret-position="85">
+          <caret line="7" column="95" lean-forward="true" selection-start-line="7" selection-start-column="95" selection-end-line="7" selection-end-column="95" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ifpb/BibliotecaTccs/GerenciarUsuarioTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        <state relative-caret-position="177">
+          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/BibliotecaTccs/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="30" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/model/tcc/GerenciarTcc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/model/Tcc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/model/tcc/GerenciarTccImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="36" column="17" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ifpb/BibliotecaTccs/GerenciarTccTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
