@@ -21,8 +21,37 @@ public class GerenciarTccTest {
         try {
             tccDao.cadastrarTcc(LocalDate.parse("22/03/2018", form), "Inteligencia artificial", "A Era tecnologica",
                     "Maria", "D:\\Luan/teste.pdf");
-            ArrayList<Tcc> list = new ArrayList<>();
             Assert.assertNotNull(tccDao.buscarPorTitulo("Inteligencia artificial"));
+        } catch (ArquivoInexistenteException e) {
+            e.printStackTrace();
+        }
+    }
+
+    //CT - 014
+    @Test
+    public void testeBuscarPorTituloNaoCadastrado(){
+        DateTimeFormatter form = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+        GerenciarTcc tccDao = new GerenciarTccImpl();
+        try {
+            tccDao.cadastrarTcc(LocalDate.parse("22/03/2018", form), "Inteligencia artificial", "A Era tecnologica",
+                    "Maria", "D:\\Luan/teste.pdf");
+            ArrayList<Tcc> list = new ArrayList<>();
+            Assert.assertEquals(list, tccDao.buscarPorTitulo("Java"));
+        } catch (ArquivoInexistenteException e) {
+            e.printStackTrace();
+        }
+    }
+
+    //CT - 015
+    @Test
+    public void testeBuscarPorTituloBranco(){
+        DateTimeFormatter form = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+        GerenciarTcc tccDao = new GerenciarTccImpl();
+        try {
+            tccDao.cadastrarTcc(LocalDate.parse("22/03/2018", form), "Inteligencia artificial", "A Era tecnologica",
+                    "Maria", "D:\\Luan/teste.pdf");
+            ArrayList<Tcc> list = new ArrayList<>();
+            Assert.assertEquals(list, tccDao.buscarPorTitulo(" "));
         } catch (ArquivoInexistenteException e) {
             e.printStackTrace();
         }
