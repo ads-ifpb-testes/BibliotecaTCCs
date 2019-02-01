@@ -10,7 +10,7 @@ import com.ifpb.model.Tcc;
 
 
 public class GerenciarTccImpl implements GerenciarTcc {
-	private List<Tcc> tccs = new ArrayList<>(); 
+	private ArrayList<Tcc> tccs = new ArrayList<>(); 
 	
 	public boolean cadastrarTcc(LocalDate dataTcc, String titulo, String tema, String autor, String pathTcc) throws ArquivoInexistenteException {
 		return tccs.add(new Tcc(dataTcc, titulo, tema, autor, pathTcc));
@@ -35,5 +35,13 @@ public class GerenciarTccImpl implements GerenciarTcc {
 			}
 		}
 		return l;
+	}
+	
+	public ArrayList<Tcc> lerTcc(){
+		return tccs;
+	} 
+	
+	public void setTccs(ArrayList<Tcc> tccs) {
+		this.tccs = tccs;
 	}
 }
