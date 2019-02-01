@@ -2,6 +2,7 @@ package com.ifpb.model;
 
 import java.io.File;
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.List;
 
 import com.ifpb.exceptions.ArquivoInexistenteException;
@@ -15,7 +16,7 @@ public class Tcc {
 	private String tema;
 	private String autor;
 	private File arquivo;
-	private List<String> comentarios;
+	private ArrayList<String> comentarios;
 	
 	public Tcc(LocalDate dataTcc, String titulo, String tema, String autor, String pathTcc) throws ArquivoInexistenteException {
 		this.arquivo = new File(pathTcc);
@@ -27,6 +28,10 @@ public class Tcc {
 		this.titulo = titulo;
 		this.tema = tema;
 		this.autor = autor;
+	}
+	
+	public Tcc() {
+		comentarios = new ArrayList<>();
 	}
 	
 	public Integer getId() {
@@ -67,10 +72,10 @@ public class Tcc {
 	public void setArquivo(File arquivo) {
 		this.arquivo = arquivo;
 	}
-	public List<String> getComentarios() {
+	public ArrayList<String> getComentarios() {
 		return comentarios;
 	}
 	public void setComentario(String comentario) {
-		comentarios.add(comentario);
+		this.comentarios.add(comentario);
 	}
 }
