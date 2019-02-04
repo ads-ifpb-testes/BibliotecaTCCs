@@ -4,6 +4,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Random;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -21,6 +22,23 @@ public class TccServiceImplTest {
 	
 	
 	TccServiceImpl tccServiceImpl;
+
+
+	public void GeraPalavras(){
+		// Determia as letras que poderão estar presente nas chaves
+		String letras = "ABCDEFGHIJKLMNOPQRSTUVYWXZ";
+
+		Random random = new Random();
+
+		String armazenaChaves = "";
+		int index = -1;
+		for( int i = 0; i < 9; i++ ) {
+			index = random.nextInt( letras.length() );
+			armazenaChaves += letras.substring( index, index + 1 );
+		}
+		System.out.println( armazenaChaves );
+	}
+
 	
 	public TccServiceImplTest() {
 		MockitoAnnotations.initMocks(this);
@@ -46,5 +64,32 @@ public class TccServiceImplTest {
 	public void comentarTccCorretamente() {
 		Mockito.when(gerenciarTccMock.lerTcc()).thenReturn(criarListaTcc());
 		Assert.assertNotNull(tccServiceImpl.comentarTcc("Lixo", "Inteligência superficial", "Zé", gerenciarTccMock));
+	}
+
+	/**
+	 * Caso de teste nº 012
+	 *
+	 * Esse caso de teste tem a finalidade de efetuar um comentário sobre um tcc com mais de 256 caracteres.
+	 */
+
+	@Test
+	public void comentarTccComMaisDe256Caracteres() {
+
+
+		String letras = "ABCDEFGHIJKLMNOPQRSTUVYWXZ";
+
+		Random random = new Random();
+
+		String armazenaChaves = "";
+		int index = -1;
+		for( int i = 0; i < 257; i++ ) {
+			index = random.nextInt( letras.length() );
+			armazenaChaves += letras.substring( index, index + 1 );
+		}
+
+
+		Mockito.when(gerenciarTccMock.lerTcc()).thenReturn(criarListaTcc());
+		Assert.assertNull(tccServiceImpl.comentarTcc(armazenaChaves,"Inteligência superficial", "Zé", gerenciarTccMock));
+
 	}
 }

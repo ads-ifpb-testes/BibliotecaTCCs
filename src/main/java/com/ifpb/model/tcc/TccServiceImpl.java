@@ -6,7 +6,7 @@ import com.ifpb.model.Tcc;
 
 public class TccServiceImpl implements TccService{
 	public ArrayList<Tcc> comentarTcc(String comentario, String titulo, String autor, GerenciarTccImpl dao) {
-		if(comentario.length()<1 || titulo.length()<1 || autor.length()<1) {
+		if(comentario.length()<1 || titulo.length()<1 || autor.length()<1 || comentario.length() > 256) {
 			return null;
 		}	
 		ArrayList<Tcc> tccs = dao.lerTcc();

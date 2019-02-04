@@ -49,7 +49,7 @@ public class UsuarioServiceImplTest {
 		try {
 			Mockito.when(gerenciarUsuarioMock.readUsuarios()).thenReturn(criarHashMapDeUsuarios());
 			Assert.assertFalse(usuarioServiceImpl.login("antonio@gmail.com", "645312", gerenciarUsuarioMock));
-			System.out.println("Login Inválido!");
+
 		}catch (Exception e){
 			e.printStackTrace();
 		}
@@ -70,7 +70,7 @@ public class UsuarioServiceImplTest {
 		try {
 			Mockito.when(gerenciarUsuarioMock.readUsuarios()).thenReturn(criarHashMapDeUsuarios());
 			Assert.assertFalse(usuarioServiceImpl.login("Jose@gmail.com", "085764", gerenciarUsuarioMock));
-			System.out.println("Senha Inválida");
+
 		}catch (Exception e){
 			e.printStackTrace();
 		}
