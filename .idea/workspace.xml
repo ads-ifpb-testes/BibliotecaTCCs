@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4f7b7e52-1df9-4010-ac2d-8ccfdc0872c3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ifpb/BibliotecaTccs/GerenciarTccTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ifpb/BibliotecaTccs/GerenciarTccTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ifpb/BibliotecaTccs/UsuarioServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ifpb/BibliotecaTccs/UsuarioServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ifpb/BibliotecaTccs/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ifpb/BibliotecaTccs/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ifpb/model/Tcc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ifpb/model/Tcc.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,20 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/model/tcc/GerenciarTcc.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/ifpb/BibliotecaTccs/UsuarioServiceImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state relative-caret-position="131">
+              <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/ifpb/BibliotecaTccs/GerenciarTccTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="61" column="31" lean-forward="true" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
+            <state relative-caret-position="60">
+              <caret line="55" column="31" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,6 +67,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ifpb/model/tcc/GerenciarTccImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ifpb/BibliotecaTccs/App.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ifpb/BibliotecaTccs/GerenciarTccTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ifpb/BibliotecaTccs/UsuarioServiceImplTest.java" />
       </list>
     </option>
   </component>
@@ -86,7 +89,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -184,12 +186,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548964394555" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549296092994" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -210,7 +213,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GerenciarTccTest">
+  <component name="RunManager" selected="JUnit.UsuarioServiceImplTest.testeFazerLoginComUsuarioNãoCastrado">
     <configuration name="GerenciarTccTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BibliotecaTccs" />
       <extension name="coverage">
@@ -222,22 +225,6 @@
       <option name="PACKAGE_NAME" value="com.ifpb.BibliotecaTccs" />
       <option name="MAIN_CLASS_NAME" value="com.ifpb.BibliotecaTccs.GerenciarTccTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GerenciarTccTest.testeBuscarPorTitulo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BibliotecaTccs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ifpb.BibliotecaTccs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ifpb.BibliotecaTccs" />
-      <option name="MAIN_CLASS_NAME" value="com.ifpb.BibliotecaTccs.GerenciarTccTest" />
-      <option name="METHOD_NAME" value="testeBuscarPorTitulo" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -257,22 +244,6 @@
       <option name="METHOD_NAME" value="testeBuscarPorTituloBranco" />
       <option name="TEST_OBJECT" value="method" />
       <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GerenciarTccTest.testeBuscarPorTituloNaoCadastrado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BibliotecaTccs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ifpb.BibliotecaTccs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ifpb.BibliotecaTccs" />
-      <option name="MAIN_CLASS_NAME" value="com.ifpb.BibliotecaTccs.GerenciarTccTest" />
-      <option name="METHOD_NAME" value="testeBuscarPorTituloNaoCadastrado" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -309,21 +280,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UsuarioServiceImplTest.RealizarLoginCorretamente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BibliotecaTccs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ifpb.BibliotecaTccs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ifpb.BibliotecaTccs" />
+      <option name="MAIN_CLASS_NAME" value="com.ifpb.BibliotecaTccs.UsuarioServiceImplTest" />
+      <option name="METHOD_NAME" value="RealizarLoginCorretamente" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsuarioServiceImplTest.testeFazerLoginComUsuarioNãoCastrado" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="BibliotecaTccs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ifpb.BibliotecaTccs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ifpb.BibliotecaTccs" />
+      <option name="MAIN_CLASS_NAME" value="com.ifpb.BibliotecaTccs.UsuarioServiceImplTest" />
+      <option name="METHOD_NAME" value="testeFazerLoginComUsuarioNãoCastrado" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="JUnit.UsuarioServiceImplTest.testeFazerLoginComUsuarioNãoCastrado" />
       <item itemvalue="JUnit.GerenciarTccTest.testeBuscarPorTituloBranco" />
+      <item itemvalue="JUnit.UsuarioServiceImplTest.RealizarLoginCorretamente" />
       <item itemvalue="JUnit.GerenciarTccTest" />
-      <item itemvalue="JUnit.GerenciarTccTest.testeBuscarPorTitulo" />
-      <item itemvalue="JUnit.GerenciarTccTest.testeBuscarPorTituloNaoCadastrado" />
       <item itemvalue="JUnit.GerenciarTccTest.testeExcluirTcc" />
       <item itemvalue="JUnit.GerenciarTccTest.testeCadastroTcc" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UsuarioServiceImplTest.RealizarLoginCorretamente" />
         <item itemvalue="JUnit.GerenciarTccTest" />
         <item itemvalue="JUnit.GerenciarTccTest.testeCadastroTcc" />
         <item itemvalue="JUnit.GerenciarTccTest.testeExcluirTcc" />
-        <item itemvalue="JUnit.GerenciarTccTest.testeBuscarPorTitulo" />
-        <item itemvalue="JUnit.GerenciarTccTest.testeBuscarPorTituloNaoCadastrado" />
       </list>
     </recent_temporary>
   </component>
@@ -343,49 +345,50 @@
       <workItem from="1548889937671" duration="6393000" />
       <workItem from="1548951759905" duration="3031000" />
       <workItem from="1548958470126" duration="5905000" />
+      <workItem from="1549294739091" duration="1350000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GerenciarTccTest - 2019.01.31 at 16h 21m 20s.xml">
-      <configuration name="GerenciarTccTest" configurationId="JUnit" />
+    <history-entry file="UsuarioServiceImplTest_testeFazerLoginComUsuarioNãoCastrado - 2019.02.04 at 12h 50m 03s.xml">
+      <configuration name="UsuarioServiceImplTest.testeFazerLoginComUsuarioNãoCastrado" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GerenciarTccTest - 2019.01.31 at 16h 43m 40s.xml">
-      <configuration name="GerenciarTccTest" configurationId="JUnit" />
+    <history-entry file="UsuarioServiceImplTest_testeFazerLoginComUsuarioNãoCastrado - 2019.02.04 at 12h 51m 03s.xml">
+      <configuration name="UsuarioServiceImplTest.testeFazerLoginComUsuarioNãoCastrado" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GerenciarTccTest - 2019.01.31 at 16h 44m 00s.xml">
-      <configuration name="GerenciarTccTest" configurationId="JUnit" />
+    <history-entry file="UsuarioServiceImplTest_RealizarLoginCorretamente - 2019.02.04 at 12h 51m 45s.xml">
+      <configuration name="UsuarioServiceImplTest.RealizarLoginCorretamente" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GerenciarTccTest - 2019.01.31 at 16h 44m 18s.xml">
-      <configuration name="GerenciarTccTest" configurationId="JUnit" />
+    <history-entry file="UsuarioServiceImplTest_testeFazerLoginComUsuarioNãoCastrado - 2019.02.04 at 12h 53m 32s.xml">
+      <configuration name="UsuarioServiceImplTest.testeFazerLoginComUsuarioNãoCastrado" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GerenciarTccTest_testeExcluirTcc - 2019.01.31 at 16h 45m 03s.xml">
-      <configuration name="GerenciarTccTest.testeExcluirTcc" configurationId="JUnit" />
+    <history-entry file="UsuarioServiceImplTest_testeFazerLoginComUsuarioNãoCastrado - 2019.02.04 at 12h 55m 01s.xml">
+      <configuration name="UsuarioServiceImplTest.testeFazerLoginComUsuarioNãoCastrado" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GerenciarTccTest_testeExcluirTcc - 2019.01.31 at 16h 45m 14s.xml">
-      <configuration name="GerenciarTccTest.testeExcluirTcc" configurationId="JUnit" />
+    <history-entry file="UsuarioServiceImplTest_testeFazerLoginComUsuarioNãoCastrado - 2019.02.04 at 12h 56m 38s.xml">
+      <configuration name="UsuarioServiceImplTest.testeFazerLoginComUsuarioNãoCastrado" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GerenciarTccTest_testeCadastroTcc - 2019.01.31 at 16h 45m 45s.xml">
-      <configuration name="GerenciarTccTest.testeCadastroTcc" configurationId="JUnit" />
+    <history-entry file="UsuarioServiceImplTest_testeFazerLoginComUsuarioNãoCastrado - 2019.02.04 at 12h 57m 25s.xml">
+      <configuration name="UsuarioServiceImplTest.testeFazerLoginComUsuarioNãoCastrado" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GerenciarTccTest_testeCadastroTcc - 2019.01.31 at 16h 46m 16s.xml">
-      <configuration name="GerenciarTccTest.testeCadastroTcc" configurationId="JUnit" />
+    <history-entry file="UsuarioServiceImplTest_testeFazerLoginComUsuarioNãoCastrado - 2019.02.04 at 12h 57m 49s.xml">
+      <configuration name="UsuarioServiceImplTest.testeFazerLoginComUsuarioNãoCastrado" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GerenciarTccTest - 2019.01.31 at 16h 51m 12s.xml">
-      <configuration name="GerenciarTccTest" configurationId="JUnit" />
+    <history-entry file="UsuarioServiceImplTest_testeFazerLoginComUsuarioNãoCastrado - 2019.02.04 at 12h 58m 09s.xml">
+      <configuration name="UsuarioServiceImplTest.testeFazerLoginComUsuarioNãoCastrado" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GerenciarTccTest - 2019.01.31 at 16h 52m 48s.xml">
-      <configuration name="GerenciarTccTest" configurationId="JUnit" />
+    <history-entry file="UsuarioServiceImplTest_testeFazerLoginComUsuarioNãoCastrado - 2019.02.04 at 13h 00m 32s.xml">
+      <configuration name="UsuarioServiceImplTest.testeFazerLoginComUsuarioNãoCastrado" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24064000" />
+    <option name="totallyTimeSpent" value="25414000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1366" height="728" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2689394" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27348486" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -395,7 +398,7 @@
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3294702" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.3294702" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.3294702" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39900663" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -554,16 +557,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ifpb/BibliotecaTccs/GerenciarUsuarioTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/model/usuario/GerenciarUsuario.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -578,13 +571,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ifpb/BibliotecaTccs/GerenciarTccTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ifpb/BibliotecaTccs/GerenciarUsuarioTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="61" column="31" lean-forward="true" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
+        <state relative-caret-position="315">
+          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ifpb/BibliotecaTccs/TccServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ifpb/BibliotecaTccs/GerenciarTccTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="55" column="31" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ifpb/BibliotecaTccs/UsuarioServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
         </state>
       </provider>
     </entry>

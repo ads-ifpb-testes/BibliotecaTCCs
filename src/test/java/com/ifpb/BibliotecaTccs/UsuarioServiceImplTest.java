@@ -35,4 +35,19 @@ public class UsuarioServiceImplTest {
 		Mockito.when(gerenciarUsuarioMock.readUsuarios()).thenReturn(criarHashMapDeUsuarios());
 		Assert.assertTrue(usuarioServiceImpl.login("Jose@gmail.com", "123654", gerenciarUsuarioMock));
 	}
+
+	/**
+	 *Caso de teste nº002
+	 *
+	 * Esse caso de texte tem a finalidade de efetuar o teste de login
+	 * de maneira correta, porém, com um usuário não cadastrado.
+	 */
+
+	@Test
+	public void testeFazerLoginComUsuarioNãoCastrado() {
+		Mockito.when(gerenciarUsuarioMock.readUsuarios()).thenReturn(criarHashMapDeUsuarios());
+		Assert.assertFalse(usuarioServiceImpl.login("antonio@gmail.com", "645312", gerenciarUsuarioMock));
+
+	}
+
 }
