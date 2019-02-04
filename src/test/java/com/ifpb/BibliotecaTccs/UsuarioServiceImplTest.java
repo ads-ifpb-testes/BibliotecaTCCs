@@ -1,5 +1,6 @@
 package com.ifpb.BibliotecaTccs;
 
+import java.sql.SQLOutput;
 import java.util.HashMap;
 
 import org.junit.Test;
@@ -45,9 +46,38 @@ public class UsuarioServiceImplTest {
 
 	@Test
 	public void testeFazerLoginComUsuarioNãoCastrado() {
-		Mockito.when(gerenciarUsuarioMock.readUsuarios()).thenReturn(criarHashMapDeUsuarios());
-		Assert.assertFalse(usuarioServiceImpl.login("antonio@gmail.com", "645312", gerenciarUsuarioMock));
+		try {
+			Mockito.when(gerenciarUsuarioMock.readUsuarios()).thenReturn(criarHashMapDeUsuarios());
+			Assert.assertFalse(usuarioServiceImpl.login("antonio@gmail.com", "645312", gerenciarUsuarioMock));
+			System.out.println("Login Inválido!");
+		}catch (Exception e){
+			e.printStackTrace();
+		}
+
 
 	}
+
+	/**
+	 * Caso de teste nº003
+	 *
+	 * Esse caso de teste tem a finalidade de efetuar o teste de login com um usuário cadastrado,
+	 * porém, com a senha inválida.
+	 *
+	 */
+
+	@Test
+	public void testeFazerLoginComUsuarioCastradoSenhaInvalida() {
+		try {
+			Mockito.when(gerenciarUsuarioMock.readUsuarios()).thenReturn(criarHashMapDeUsuarios());
+			Assert.assertFalse(usuarioServiceImpl.login("Jose@gmail.com", "085764", gerenciarUsuarioMock));
+			System.out.println("Senha Inválida");
+		}catch (Exception e){
+			e.printStackTrace();
+		}
+
+
+	}
+
+
 
 }

@@ -4,8 +4,6 @@
     <list default="true" id="4f7b7e52-1df9-4010-ac2d-8ccfdc0872c3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/ifpb/BibliotecaTccs/UsuarioServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ifpb/BibliotecaTccs/UsuarioServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ifpb/BibliotecaTccs/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ifpb/BibliotecaTccs/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ifpb/model/Tcc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ifpb/model/Tcc.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/ifpb/BibliotecaTccs/UsuarioServiceImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+            <state relative-caret-position="295">
+              <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
             </state>
           </provider>
         </entry>
@@ -192,7 +190,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549296092994" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549297231049" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -213,7 +211,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UsuarioServiceImplTest.testeFazerLoginComUsuarioNãoCastrado">
+  <component name="RunManager" selected="JUnit.UsuarioServiceImplTest.testeFazerLoginComUsuarioCastradoSenhaInvalida">
     <configuration name="GerenciarTccTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BibliotecaTccs" />
       <extension name="coverage">
@@ -296,6 +294,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UsuarioServiceImplTest.testeFazerLoginComUsuarioCastradoSenhaInvalida" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BibliotecaTccs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ifpb.BibliotecaTccs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ifpb.BibliotecaTccs" />
+      <option name="MAIN_CLASS_NAME" value="com.ifpb.BibliotecaTccs.UsuarioServiceImplTest" />
+      <option name="METHOD_NAME" value="testeFazerLoginComUsuarioCastradoSenhaInvalida" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UsuarioServiceImplTest.testeFazerLoginComUsuarioNãoCastrado" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="BibliotecaTccs" />
       <extension name="coverage">
@@ -319,9 +333,11 @@
       <item itemvalue="JUnit.GerenciarTccTest" />
       <item itemvalue="JUnit.GerenciarTccTest.testeExcluirTcc" />
       <item itemvalue="JUnit.GerenciarTccTest.testeCadastroTcc" />
+      <item itemvalue="JUnit.UsuarioServiceImplTest.testeFazerLoginComUsuarioCastradoSenhaInvalida" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UsuarioServiceImplTest.testeFazerLoginComUsuarioCastradoSenhaInvalida" />
         <item itemvalue="JUnit.UsuarioServiceImplTest.RealizarLoginCorretamente" />
         <item itemvalue="JUnit.GerenciarTccTest" />
         <item itemvalue="JUnit.GerenciarTccTest.testeCadastroTcc" />
@@ -345,44 +361,44 @@
       <workItem from="1548889937671" duration="6393000" />
       <workItem from="1548951759905" duration="3031000" />
       <workItem from="1548958470126" duration="5905000" />
-      <workItem from="1549294739091" duration="1350000" />
+      <workItem from="1549294739091" duration="2456000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UsuarioServiceImplTest_testeFazerLoginComUsuarioNãoCastrado - 2019.02.04 at 12h 50m 03s.xml">
-      <configuration name="UsuarioServiceImplTest.testeFazerLoginComUsuarioNãoCastrado" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UsuarioServiceImplTest_testeFazerLoginComUsuarioNãoCastrado - 2019.02.04 at 12h 51m 03s.xml">
-      <configuration name="UsuarioServiceImplTest.testeFazerLoginComUsuarioNãoCastrado" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UsuarioServiceImplTest_RealizarLoginCorretamente - 2019.02.04 at 12h 51m 45s.xml">
-      <configuration name="UsuarioServiceImplTest.RealizarLoginCorretamente" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UsuarioServiceImplTest_testeFazerLoginComUsuarioNãoCastrado - 2019.02.04 at 12h 53m 32s.xml">
-      <configuration name="UsuarioServiceImplTest.testeFazerLoginComUsuarioNãoCastrado" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UsuarioServiceImplTest_testeFazerLoginComUsuarioNãoCastrado - 2019.02.04 at 12h 55m 01s.xml">
-      <configuration name="UsuarioServiceImplTest.testeFazerLoginComUsuarioNãoCastrado" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UsuarioServiceImplTest_testeFazerLoginComUsuarioNãoCastrado - 2019.02.04 at 12h 56m 38s.xml">
-      <configuration name="UsuarioServiceImplTest.testeFazerLoginComUsuarioNãoCastrado" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UsuarioServiceImplTest_testeFazerLoginComUsuarioNãoCastrado - 2019.02.04 at 12h 57m 25s.xml">
-      <configuration name="UsuarioServiceImplTest.testeFazerLoginComUsuarioNãoCastrado" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UsuarioServiceImplTest_testeFazerLoginComUsuarioNãoCastrado - 2019.02.04 at 12h 57m 49s.xml">
-      <configuration name="UsuarioServiceImplTest.testeFazerLoginComUsuarioNãoCastrado" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UsuarioServiceImplTest_testeFazerLoginComUsuarioNãoCastrado - 2019.02.04 at 12h 58m 09s.xml">
       <configuration name="UsuarioServiceImplTest.testeFazerLoginComUsuarioNãoCastrado" configurationId="JUnit" />
     </history-entry>
     <history-entry file="UsuarioServiceImplTest_testeFazerLoginComUsuarioNãoCastrado - 2019.02.04 at 13h 00m 32s.xml">
       <configuration name="UsuarioServiceImplTest.testeFazerLoginComUsuarioNãoCastrado" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UsuarioServiceImplTest_testeFazerLoginComUsuarioNãoCastrado - 2019.02.04 at 13h 13m 44s.xml">
+      <configuration name="UsuarioServiceImplTest.testeFazerLoginComUsuarioNãoCastrado" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UsuarioServiceImplTest_testeFazerLoginComUsuarioNãoCastrado - 2019.02.04 at 13h 14m 21s.xml">
+      <configuration name="UsuarioServiceImplTest.testeFazerLoginComUsuarioNãoCastrado" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UsuarioServiceImplTest_testeFazerLoginComUsuarioNãoCastrado - 2019.02.04 at 13h 14m 47s.xml">
+      <configuration name="UsuarioServiceImplTest.testeFazerLoginComUsuarioNãoCastrado" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UsuarioServiceImplTest_testeFazerLoginComUsuarioNãoCastrado - 2019.02.04 at 13h 15m 04s.xml">
+      <configuration name="UsuarioServiceImplTest.testeFazerLoginComUsuarioNãoCastrado" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UsuarioServiceImplTest_testeFazerLoginComUsuarioCastradoSenhaInvalida - 2019.02.04 at 13h 16m 38s.xml">
+      <configuration name="UsuarioServiceImplTest.testeFazerLoginComUsuarioCastradoSenhaInvalida" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UsuarioServiceImplTest_testeFazerLoginComUsuarioCastradoSenhaInvalida - 2019.02.04 at 13h 17m 09s.xml">
+      <configuration name="UsuarioServiceImplTest.testeFazerLoginComUsuarioCastradoSenhaInvalida" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UsuarioServiceImplTest_testeFazerLoginComUsuarioCastradoSenhaInvalida - 2019.02.04 at 13h 18m 12s.xml">
+      <configuration name="UsuarioServiceImplTest.testeFazerLoginComUsuarioCastradoSenhaInvalida" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UsuarioServiceImplTest_testeFazerLoginComUsuarioCastradoSenhaInvalida - 2019.02.04 at 13h 20m 26s.xml">
+      <configuration name="UsuarioServiceImplTest.testeFazerLoginComUsuarioCastradoSenhaInvalida" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25414000" />
+    <option name="totallyTimeSpent" value="26520000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1366" height="728" extended-state="6" />
@@ -600,8 +616,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ifpb/BibliotecaTccs/UsuarioServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+        <state relative-caret-position="295">
+          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
         </state>
       </provider>
     </entry>
