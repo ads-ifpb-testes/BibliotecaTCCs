@@ -1,4 +1,4 @@
-package com.ifpb.BibliotecaTccs;
+package com.ifpb.BibliotecaTccs.testesUnitarios;
 
 import com.ifpb.model.usuario.GerenciarUsuario;
 import com.ifpb.model.usuario.GerenciarUsuarioImpl;
@@ -19,11 +19,5 @@ public class GerenciarUsuarioTest {
         GerenciarUsuario dao = new GerenciarUsuarioImpl();
         Assert.assertFalse(dao.cadastrarUsuario("Jose", "M", "jose@email.com", "1234567", "ads"));
     }
-    //CT - 006
-    @Test
-    public  void testeExcluirUsuario(){
-        GerenciarUsuario dao = new GerenciarUsuarioImpl();
-        dao.cadastrarUsuario("Jose", "M", "jose@email.com", "12345678", "ads");
-        Assert.assertTrue(dao.excluirUsuario("jose@email.com"));
-    }
+
 }
